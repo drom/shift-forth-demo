@@ -1,0 +1,22 @@
+{
+  "name": "shift-forth",
+  "version": "0.0.4",
+  "homepage": "https://github.com/drom/shift-forth",
+  "authors": [
+    "Aliaksei Chapyzhenka <alex.drom@gmail.com>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ui-treeview": "*"
+  }
+}

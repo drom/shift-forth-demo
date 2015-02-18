@@ -1,0 +1,43 @@
+{
+  "name": "shift-forth-demo",
+  "version": "0.0.1",
+  "description": "shift-forth demo page",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "./node_modules/.bin/grunt mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drom/shift-forth-demo.git"
+  },
+  "author": "drom",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drom/shift-forth-demo/issues"
+  },
+  "homepage": "https://github.com/drom/shift-forth-demo",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "browserify": "*",
+    "chai": "*",
+    "codemirror": "*",
+    "eslint": "*",
+    "grunt": "*",
+    "grunt-bower-install-simple": "*",
+    "grunt-browserify": "*",
+    "grunt-cli": "*",
+    "grunt-contrib-clean": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-eslint": "*",
+    "http-server": "*",
+    "lodash": "*",
+    "shift-scope": "*",
+    "shift-forth": "*",
+    "shift-traverse": "*",
+    "shift-parser": "*"
+  }
+}
