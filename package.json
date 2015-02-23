@@ -32,6 +32,7 @@
     "grunt-cli": "*",
     "grunt-contrib-clean": "*",
     "grunt-contrib-copy": "*",
+    "grunt-contrib-watch": "*",
     "grunt-eslint": "*",
     "http-server": "*",
     "lodash": "*",

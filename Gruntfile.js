@@ -50,6 +50,15 @@ module.exports = function(grunt) {
         clean: {
             node: ['node_modules', 'build']
         },
+        watch: {
+            scripts: {
+                files: ['lib/*.*', 'node_modules/shift-forth/lib/*.js'],
+                tasks: ['default'],
+                options: {
+                    spawn: false
+                }
+            }
+        },
         'bower-install-simple': {
             options: {
                 color: true,
@@ -72,6 +81,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-eslint');
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-contrib-clean');
+    grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-browserify');
     grunt.loadNpmTasks('grunt-bower-install-simple');
 
